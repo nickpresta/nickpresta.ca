@@ -11,6 +11,7 @@ body {
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.35);
   margin: 0 auto;
   width: 55%;
+  max-width: 1600px;
 }
 .header, .content {
   font-family: 'PT Sans', sans-serif;
