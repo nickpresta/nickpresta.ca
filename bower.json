@@ -1,8 +1,9 @@
 {
   "name": "nickpresta-ca",
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0",
     "font-awesome": "~4.0.3"
-  }
+  },
+  "devDependencies": {}
 }
