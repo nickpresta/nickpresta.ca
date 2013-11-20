@@ -1,0 +1,59 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+$fa-font-path: "/bower_components/font-awesome/fonts";
+@import 'font-awesome/scss/font-awesome';
+
+body {
+  font-family: 'PT Sans',sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 175%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.row {
+  padding: 19px 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
